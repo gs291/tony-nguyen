@@ -78,7 +78,7 @@ const siteConfig: SiteConfig = {
     },
     {
       label: "Merch Shop",
-      href: "https://merch.tonynguyen.com",
+      href: "https://vt.tiktok.com/ZTB1p93oA/?page=TikTokShop",
       icon: ShoppingCart,
     },
     {
