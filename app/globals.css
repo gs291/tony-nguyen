@@ -59,7 +59,7 @@ body {
 .bg-pulse-1 {
   width: 60vw;
   height: 60vw;
-  background: radial-gradient(circle, #00e5ff 0%, transparent 70%);
+  background: radial-gradient(circle, #00e5ff 0%, transparent 100%);
   top: 10%;
   left: 20%;
   animation: pulseGlow1 15s ease-in-out infinite;
@@ -68,7 +68,7 @@ body {
 .bg-pulse-2 {
   width: 70vw;
   height: 70vw;
-  background: radial-gradient(circle, #00e5ff 0%, transparent 70%);
+  background: radial-gradient(circle, #00e5ff 0%, transparent 100%);
   bottom: 10%;
   right: 10%;
   animation: pulseGlow2 18s ease-in-out infinite;
@@ -77,7 +77,7 @@ body {
 .bg-pulse-3 {
   width: 50vw;
   height: 50vw;
-  background: radial-gradient(circle, #00e5ff 0%, transparent 70%);
+  background: radial-gradient(circle, #00e5ff 0%, transparent 100%);
   top: 40%;
   left: -10%;
   animation: pulseGlow3 20s ease-in-out infinite;
