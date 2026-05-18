@@ -20,17 +20,22 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
       .catch((err) => console.error("Failed to copy link:", err));
   }, []);
 
+  const hasNav = siteConfig.nav.length > 0;
+
   return (
     <>
-      <NavDrawer
-        monogram={siteConfig.monogram}
-        items={siteConfig.nav}
-        isOpen={menuOpen}
-        onClose={() => setMenuOpen(false)}
-      />
+      {hasNav && (
+        <NavDrawer
+          monogram={siteConfig.monogram}
+          items={siteConfig.nav}
+          isOpen={menuOpen}
+          onClose={() => setMenuOpen(false)}
+        />
+      )}
       <Toast message="Link Copied!" visible={toastVisible} />
       <TopAppBar
         monogram={siteConfig.monogram}
+        showMenu={hasNav}
         onMenuToggle={toggleMenu}
         onShare={handleShare}
       />

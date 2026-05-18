@@ -101,10 +101,10 @@ const siteConfig: SiteConfig = {
   ],
 
   nav: [
-    { label: "Home", href: "/", icon: "home" },
-    { label: "Gallery", href: "/gallery", icon: "photo_library" },
-    { label: "About", href: "/about", icon: "person" },
-    { label: "Contact", href: "/contact", icon: "mail" },
+    // { label: "Home", href: "/", icon: "home" },
+    // { label: "Gallery", href: "/gallery", icon: "photo_library" },
+    // { label: "About", href: "/about", icon: "person" },
+    // { label: "Contact", href: "/contact", icon: "mail" },
   ],
 };
 
