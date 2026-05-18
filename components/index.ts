@@ -7,3 +7,4 @@ export { default as LinkCard } from "./LinkCard";
 export { default as LinkList } from "./LinkList";
 export { default as Toast } from "./Toast";
 export { default as Footer } from "./Footer";
+export { default as BackLink } from "./BackLink";

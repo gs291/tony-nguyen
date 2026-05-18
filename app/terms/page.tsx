@@ -1,4 +1,5 @@
 import siteConfig from "@/config/site";
+import { BackLink } from "@/components";
 
 export const metadata = {
   title: `Terms of Use – ${siteConfig.name}`,
@@ -7,6 +8,7 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <main className="pt-[100px] px-container-margin max-w-2xl mx-auto min-h-screen pb-section-gap">
+      <BackLink />
       <h1 className="font-display text-headline-lg text-on-surface mb-2">
         Terms of Use
       </h1>
@@ -276,6 +278,9 @@ export default function TermsPage() {
             </a>
           </p>
         </section>
+      </div>
+      <div className="mt-12">
+        <BackLink />
       </div>
     </main>
   );
