@@ -2,8 +2,10 @@ import {
   Play,
   Camera,
   MessagesSquare,
+  Gift,
   ShoppingCart,
   Mail,
+  HeartHandshake,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react"; 
 
@@ -77,12 +79,22 @@ const siteConfig: SiteConfig = {
       icon: MessagesSquare,
     },
     {
+      label: "Amazon Wish List",
+      href: "https://www.amazon.com/hz/wishlist/ls/3DD8O476QZIYB?ref_=wl_share",
+      icon: Gift,
+    },
+    {
+      label: "Cash App",
+      href: "https://cash.app/$tnguy130",
+      icon: HeartHandshake,
+    },
+    {
       label: "Merch Shop",
       href: "https://vt.tiktok.com/ZTB1p93oA/?page=TikTokShop",
       icon: ShoppingCart,
     },
     {
-      label: "Work with me",
+      label: "Work With Me",
       href: "mailto:Tony.nguyen1239@gmail.com",
       icon: Mail,
     },
