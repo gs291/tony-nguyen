@@ -11,40 +11,40 @@ const config: Config = {
     extend: {
       colors: {
         /* ---- Surface system ---- */
-        background: "#131313",
-        surface: "#131313",
-        "surface-dim": "#131313",
-        "surface-bright": "#3a3939",
-        "surface-container-lowest": "#0e0e0e",
-        "surface-container-low": "#1c1b1b",
-        "surface-container": "#201f1f",
-        "surface-container-high": "#2a2a2a",
-        "surface-container-highest": "#353534",
-        "surface-variant": "#353534",
-        "on-surface": "#e5e2e1",
-        "on-surface-variant": "#bac9cc",
-        "inverse-surface": "#e5e2e1",
-        "inverse-on-surface": "#313030",
-        "surface-tint": "#00daf3",
+        background: "#0e0b13",
+        surface: "#0e0b13",
+        "surface-dim": "#0e0b13",
+        "surface-bright": "#35303d",
+        "surface-container-lowest": "#090712",
+        "surface-container-low": "#1a1520",
+        "surface-container": "#1f1a26",
+        "surface-container-high": "#2a2431",
+        "surface-container-highest": "#35303d",
+        "surface-variant": "#35303d",
+        "on-surface": "#e8e0f0",
+        "on-surface-variant": "#cdc4d8",
+        "inverse-surface": "#e8e0f0",
+        "inverse-on-surface": "#312c38",
+        "surface-tint": "#c084fc",
 
         /* ---- Primary ---- */
-        primary: "#c3f5ff",
-        "on-primary": "#00363d",
-        "primary-container": "#00e5ff",
-        "on-primary-container": "#00626e",
-        "inverse-primary": "#006875",
+        primary: "#e8d5ff",
+        "on-primary": "#3b1a6e",
+        "primary-container": "#a855f7",
+        "on-primary-container": "#4c1d95",
+        "inverse-primary": "#7c3aed",
 
         /* ---- Secondary ---- */
-        secondary: "#dcb8ff",
-        "on-secondary": "#480081",
-        "secondary-container": "#7701d0",
-        "on-secondary-container": "#dcb7ff",
+        secondary: "#f0abfc",
+        "on-secondary": "#6b21a8",
+        "secondary-container": "#9333ea",
+        "on-secondary-container": "#f0abfc",
 
         /* ---- Tertiary ---- */
-        tertiary: "#ffeac0",
-        "on-tertiary": "#3e2e00",
-        "tertiary-container": "#fec931",
-        "on-tertiary-container": "#6f5500",
+        tertiary: "#fcd6ff",
+        "on-tertiary": "#4a044e",
+        "tertiary-container": "#d946ef",
+        "on-tertiary-container": "#701a75",
 
         /* ---- Error ---- */
         error: "#ffb4ab",
@@ -53,8 +53,8 @@ const config: Config = {
         "on-error-container": "#ffdad6",
 
         /* ---- Outline ---- */
-        outline: "#849396",
-        "outline-variant": "#3b494c",
+        outline: "#958ea0",
+        "outline-variant": "#4a4358",
       },
       fontFamily: {
         display: ["Montserrat", "sans-serif"],

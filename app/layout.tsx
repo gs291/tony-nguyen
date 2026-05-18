@@ -56,7 +56,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen bg-[#0e0e0e] relative pb-section-gap">
+      <body className="min-h-screen bg-[#090712] relative pb-section-gap">
         {/* Electric Pulse Background */}
         <div className="bg-pulse-container">
           <div className="bg-pulse-1" />
