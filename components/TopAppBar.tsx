@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 interface TopAppBarProps {
   monogram: string;
   showMenu?: boolean;
@@ -27,9 +29,12 @@ export default function TopAppBar({
         <div className="w-6" />
       )}
 
-      <div className="font-display text-headline-lg-mobile text-primary font-bold tracking-tight">
+      <Link
+        href="/"
+        className="font-display text-headline-lg-mobile text-primary font-bold tracking-tight hover:text-surface-tint transition-colors"
+      >
         {monogram}
-      </div>
+      </Link>
 
       <button
         aria-label="Share"
